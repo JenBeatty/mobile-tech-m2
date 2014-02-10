@@ -173,7 +173,28 @@ nav a:hover {
     margin-top: 5%;
 }
 
+button {
+    background-color: #868E8C;
+    border: none;
+    font-family: Lato, Arial;
+    color: #fff;
+    padding: 2% 3%;
+    margin-top: 2%;
+    border-top: 20px solid #5C6572;
 
+}
+
+.restore-img {
+    display: none;
+}
+
+.button-clicked {
+    background-color: #BBBFAC;
+}
+
+button:hover {
+    background-color: rgba(134, 142, 140, 0.7);
+}
 
 
 
