@@ -196,7 +196,15 @@ button:hover {
     background-color: rgba(134, 142, 140, 0.7);
 }
 
+.fade-help-text {
+    display: none;
+    color: #BBBFAC;
+}
 
+.restore-help-text {
+    display: none;
+    color: #BBBFAC;
+}
 
 
 

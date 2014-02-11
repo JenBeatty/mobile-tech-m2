@@ -6,6 +6,8 @@ $(document).ready(function(){
         });
         $(".fade-img").hide("slow");
         $(".restore-img").show("slow");
+        $(".fade-help-text").show("slow");
+        $(".restore-help-text").hide("slow");
     });
 
     $(".restore-img").click(function(){
@@ -14,6 +16,8 @@ $(document).ready(function(){
         });
         $(".restore-img").hide("slow");
         $(".fade-img").show("fast");
+        $(".fade-help-text").hide("slow");
+        $(".restore-help-text").show("slow");
     });
 
 });
